@@ -37,6 +37,7 @@ define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
 define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 
 /* Multisite */
+/*
 define('WP_ALLOW_MULTISITE', true);
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true); // Set to false if using subdirectories
@@ -44,6 +45,7 @@ define('DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE'));
 define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
+*/
 
 /**
  * DB settings
